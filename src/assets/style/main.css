@@ -1,0 +1,88 @@
+* {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Root */
+:root {
+  --dark: #1D1D1F;
+  --dark-blue-64: #0b090a;
+  --dark-blue-32: #1b263b;
+  --light-blue-64: #5A88FF;
+  --light-blue-32: #778da9;
+  --cream: #e0e1dd;
+}
+
+/* Colors */
+.text-blue {
+    color: var(--light-blue-64) !important;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--dark);
+  border-bottom: 2px solid var(--cream);
+}
+.navbar a {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.navbar-toggler {
+    border: 2px solid white !important;
+    padding: 0.75rem !important;
+    margin: 0.5rem 0.25rem !important;
+}
+
+/* Navbar Hover Effect */
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 10px;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Header */
+@media (min-width: 992px) {
+  .masthead {
+    background-color: var(--dark);
+    padding-top: calc(6rem + 104px);
+    padding-bottom: 6rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .masthead {
+    padding: 140px 0 80px;
+    background-color: var(--dark);
+  }
+  .masthead img {
+    max-width: 90%;
+    margin-top: 20px;
+  }
+}
