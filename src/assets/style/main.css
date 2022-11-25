@@ -88,9 +88,18 @@ ul {
   list-style: none;
 }
 
+/* Stage & Alternance Details */
+.stage-alternance {
+  
+}
 
+.stage-alternance img {
+  max-width: 400px;
+}
 
-
+.stage-alternance .row {
+  margin: 4rem auto 6rem !important;
+}
 
 /* Header */
 @media (min-width: 992px) {
