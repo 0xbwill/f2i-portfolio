@@ -89,32 +89,50 @@
       </nav>
       <!-- Navbar -->
 
-    <!-- Header -->
-    <header class="masthead text-white text-center">
-      <div class="container">
+      <div class="container py-5" style="margin-top:100px">
         <div class="row">
-          <div
-            class="col-sm-8 d-flex align-items-center justify-content-center animate__animated animate__backInLeft pb-5">
-            <div class="text-start">
-              <h1 class="text-uppercase fw-bold">Enchanté 👋,</h1>
-              <h1 class="text-uppercase fw-bold">William, étudiant en</h1>
-              <h1
-                class="text-uppercase fw-bold text-blue"
-                style="font-size: 45px">
-                développement web
-              </h1>
-              <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
+            <div class="col-lg-12">
+              <div class="well well-sm">
+                <form class="form-horizontal" action="" method="post">
+                <fieldset>
+                  <h1 class="text-center text-uppercase">Me contacter</h1>
+          
+                  <!-- Prénom -->
+                  <div class="form-group mt-3">
+                    <label class="col-md-3 control-label text-uppercase" for="name">Prénom</label>
+                    <div class="col-md-12">
+                      <input id="name" name="name" type="text" placeholder="Votre prénom" class="form-control">
+                    </div>
+                  </div>
+          
+                  <!-- Email -->
+                  <div class="form-group mt-3">
+                    <label class="col-md-3 control-label text-uppercase" for="email">E-mail</label>
+                    <div class="col-md-12">
+                      <input id="email" name="email" type="text" placeholder="Votre email" class="form-control">
+                    </div>
+                  </div>
+          
+                  <!-- Message -->
+                  <div class="form-group mt-3">
+                    <label class="col-md-3 control-label text-uppercase" for="message">Votre message</label>
+                    <div class="col-md-12">
+                      <textarea class="form-control" id="message" name="message" placeholder="Veuillez indiquez votre message ici" rows="5"></textarea>
+                    </div>
+                  </div>
+          
+                  <!-- Confirmer -->
+                  <div class="form-group mt-3">
+                    <div class="col-md-12 text-right">
+                      <button type="submit" class="btn btn-primary btn-lg">Confirmer</button>
+                    </div>
+                  </div>
+                </fieldset>
+                </form>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4 animate__animated animate__bounceIn">
-            <img src="/src/assets/images/header.svg" />
-          </div>
         </div>
       </div>
-    </header>
-    <!-- Header -->
 
   </body>
 </html>

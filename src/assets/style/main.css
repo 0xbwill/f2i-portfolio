@@ -89,16 +89,31 @@ ul {
 }
 
 /* Stage & Alternance Details */
-.stage-alternance {
-  
-}
 
 .stage-alternance img {
   max-width: 400px;
 }
 
 .stage-alternance .row {
-  margin: 4rem auto 6rem !important;
+  margin: 100px auto !important;
+}
+
+/* Compétences Container */
+.competences-container {
+  padding: 0 0 3rem 0;
+}
+.competences-container img {
+  width: 150px;
+}
+
+.btn-primary {
+  background-color: var(--light-blue-64) !important;
+  border-color: var(--light-blue-64) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--dark-blue-32) !important;
+  border-color: var(--dark-blue-32) !important;
 }
 
 /* Header */
