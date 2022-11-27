@@ -141,6 +141,9 @@ ul {
     max-width: 90%;
     margin-top: 20px;
   }
+  img {
+    max-width: 250px;
+  }
 }
 
 /* Footer */
